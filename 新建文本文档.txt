@@ -1,0 +1,13 @@
+drop database ly_01   (删除数据库)
+
+create database ly_01 (创建数据库，默认utf8，utf8_general_ci)
+
+create database ly_01 character utf8 collate utf8_bin
+
+show databases 
+
+show create database ly_02
+
+create database 'create'
+
+(mysqldump -u root -p -B ecshop > \\d:ecshop.sql
